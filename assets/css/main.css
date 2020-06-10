@@ -128,6 +128,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		color: #4acaa8;
 	}
 
 		h2.alt {
@@ -1749,6 +1750,10 @@ input, select, textarea {
 		border: 0;
 	}
 
+	.radius {
+		border-radius: 30%;
+	}
+
 		.image img {
 			display: block;
 			width: 100;
@@ -1757,7 +1762,6 @@ input, select, textarea {
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
-			background: #f00;
 		}
 
 			.image.avatar48 img {
@@ -2118,7 +2122,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
-			top: 190px;
+			top: 180px;
 			text-align: center;
 		}
 
@@ -2126,7 +2130,9 @@ input, select, textarea {
 			position: absolute;
 			left: 30px;
 			top: 0;
-		} 
+		}
+
+		
 	#nav ul {
 		list-style: none;
 		padding-left: 0;
@@ -2172,7 +2178,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #4acaa8;
 					}
 
 /* Footer */
@@ -2216,7 +2222,7 @@ input, select, textarea {
 			overflow: hidden;
 			padding: 4em 0;
 			box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-			text-align: center;
+			text-align: justify;
 			background-image: url("images/overlay.png");
 		}
 
@@ -2267,6 +2273,10 @@ input, select, textarea {
 			}
 
 /* Wide */
+	.two img{
+		border-radius: 30%;
+		width: 100%;
+	}
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
 
