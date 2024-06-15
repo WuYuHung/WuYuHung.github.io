@@ -1766,7 +1766,7 @@ input, select, textarea {
 
 			.image.avatar48 img {
 				width: 170px;
-				height: 170px;
+				height: 190px;
 			}
 
 		.image.fit {
@@ -2262,7 +2262,7 @@ input, select, textarea {
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #ffffff;
 			}
 
 			#main > section.three {
@@ -2279,7 +2279,7 @@ input, select, textarea {
 			}
 /* Wide */
 	.two img{
-		border-radius: 30%;
+		border-radius: 0%;
 		width: 100%;
 	}
 
@@ -2649,3 +2649,11 @@ input, select, textarea {
 				}
 
 	}
+
+.edujob p{
+	margin: 20px 0;
+}
+
+#main>section.two {
+	background-image: none;
+}
