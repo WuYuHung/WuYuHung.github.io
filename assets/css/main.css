@@ -1766,7 +1766,7 @@ input, select, textarea {
 
 			.image.avatar48 img {
 				width: 170px;
-				height: 190px;
+				height: 210px;
 			}
 
 		.image.fit {
@@ -2111,7 +2111,7 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 2em;
-			top: 190px;
+			top: 220px;
 			text-align: center;
 		}
 
