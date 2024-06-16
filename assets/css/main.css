@@ -2277,14 +2277,22 @@ input, select, textarea {
 			#main > section.five {
 				background-color: #e8edec;
 			}
-		@media only screen and (max-width: 600px) {
-			#main>section {
-				text-align: left;
-				/* 將文字靠左對齊 */
-				padding: 2em 0;
-				/* 調整段落上下間距 */
-			}
-		}
+				@media only screen and (max-width: 600px) {
+					#main>section {
+						text-align: left;
+						/* 將文字靠左對齊 */
+						padding: 2em 0;
+						/* 調整段落上下間距 */
+						-webkit-text-align: left;
+						/* Safari 和舊版 Android 瀏覽器 */
+						-moz-text-align: left;
+						/* Firefox */
+						-ms-text-align: left;
+						/* IE */
+						-o-text-align: left;
+						/* Opera */
+					}
+				}
 /* Wide */
 	.two img{
 		border-radius: 0%;
