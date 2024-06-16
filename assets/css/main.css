@@ -2225,7 +2225,7 @@ input, select, textarea {
 			text-align: justify;
 			background-image: url("images/overlay.png");
 		}
-
+		
 			#main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
@@ -2277,6 +2277,14 @@ input, select, textarea {
 			#main > section.five {
 				background-color: #e8edec;
 			}
+		@media only screen and (max-width: 600px) {
+			#main>section {
+				text-align: left;
+				/* 將文字靠左對齊 */
+				padding: 2em 0;
+				/* 調整段落上下間距 */
+			}
+		}
 /* Wide */
 	.two img{
 		border-radius: 0%;
